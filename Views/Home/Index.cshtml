@@ -1,0 +1,10 @@
+@{
+    ViewData["Title"] = "Home Page";
+}
+<div>
+    @using (Html.BeginForm("Like","Home"))
+    {
+        <input type="submit" value="Like" />
+        <div>@ViewBag.Message</div>
+    }  
+</div>
