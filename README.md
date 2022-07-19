@@ -8,6 +8,9 @@ Learning objectives In this module, you will:
 * Instrument a web app with code to gather information about custom events
 
 ```
+dotnet new mvc -o videowebapp
+cd videowebapp
+dotnet add package Microsoft.ApplicationInsights.AspNetCore
 dotnet build
 dotnet run 
 
@@ -16,10 +19,5 @@ cd pub
 zip -r site.zip *
 
 az webapp deployment source config-zip     --src site.zip     --resource-group MonitoredAssets     --name smpapizhangchl007
-
-
-
-
-
 
 ```
