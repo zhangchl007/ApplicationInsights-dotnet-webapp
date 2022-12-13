@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8zuzF6/KqpEfMHAu7IHRDxIV7mBd6uXquk/VVgFKNuXuTGg/jxA57Rurfmt8KqnBrYzUxTje0QL+5Go/IAtuuw==",
+  "dgSpecHash": "fSpoBsZhDaiVR+98Sa7KMhYKjDTlnQNmeKUxFXLT3ncp7Lu/9IKy2TAbIK8a/8io6KB8SbLQ1UhqXWYNgK0pEA==",
   "success": true,
-  "projectFilePath": "/mnt/d/MSFT_Certification/AZ-204-DevelopingSolutionsforMicrosoftAzure/Allfiles/Labs/11/Starter/videowebapp/videowebapp.csproj",
+  "projectFilePath": "/home/zhangchl007/dotnet/ApplicationInsights-dotnet-webapp/videowebapp.csproj",
   "expectedPackageFiles": [
     "/home/zhangchl007/.nuget/packages/microsoft.applicationinsights/2.20.0/microsoft.applicationinsights.2.20.0.nupkg.sha512",
     "/home/zhangchl007/.nuget/packages/microsoft.applicationinsights.aspnetcore/2.20.0/microsoft.applicationinsights.aspnetcore.2.20.0.nupkg.sha512",

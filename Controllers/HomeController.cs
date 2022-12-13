@@ -28,6 +28,8 @@ public class HomeController : Controller
 
     public IActionResult Privacy()
     {
+        _telemetryClient.TrackTrace("Privacy clicking", Microsoft.ApplicationInsights.DataContracts.SeverityLevel.Information, 
+                                   new Dictionary<string, string> { { "clicking", "id" }});
         return View();
     }
     public IActionResult Like(string button)
